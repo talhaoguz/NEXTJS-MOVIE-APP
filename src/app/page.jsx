@@ -21,7 +21,7 @@ export default async function Home({ searchParams }) {
   }
 
   return (
-    <div className="py-8">
+    <div>
       <Result results={results} />
     </div>
   );
